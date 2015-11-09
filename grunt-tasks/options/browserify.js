@@ -1,7 +1,7 @@
 
 module.exports = {
   options: {
-    transform: [['babelify', {externalHelpers: true, stage: 0}]]
+    transform: ['babelify']
   },
 
   dev: {
